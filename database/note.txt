@@ -1,0 +1,2 @@
+database name is  t
+table name is res
