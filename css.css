@@ -1,0 +1,384 @@
+body{
+	 background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(image/2.PNG);
+	 background-position: center;
+     background-size: cover;
+     overflow-x: hidden;
+     position: relative;
+}
+
+.nav-bar{
+	display: flex;
+	padding: 40px 120px;
+}
+.nav-logo img{
+	width:120px;
+}
+.nav-links{
+	flex: 1;
+	float: right;
+}
+.nav-links ul{
+	margin-left: 50px;
+	display: inline;
+}
+.nav-links ul li{
+	list-style:none;
+	display: inline-block;
+	padding: 8px 25px;
+}
+.nav-links ul a{
+	float: right;
+	color: #fff;
+	text-decoration: none;
+	font-size:23px;
+}
+.nav-links ul li::after{
+	content: '';
+	width: 100%;
+	height: 2px;
+	
+	display: block;
+	margin: auto;
+	transition: .5s;
+}
+.nav-links ul li:hover:after{
+	width: 100%;
+}
+.btn{
+	padding: 10px 20px;
+	border:0;
+	background:yellow;
+	font-weight: bold;
+	cursor: pointer;
+}
+.banner-title{
+	margin:80px 130px;
+	color: #fff;
+}
+.banner-title h1{
+	font-size: 64px;
+	margin-bottom: 30px;
+}
+.banner-title h1 span{
+	color: yellow;
+}
+.vertical-bar{
+	height: 100%;
+	background:#000;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.search-icon{
+height: 60%;
+width: 80px;
+}
+.search-icon .fa{
+margin: 45px 23px;
+display: block;
+color: #fff;
+font-size: 30px;
+cursor: pointer;
+}
+.social-icons{
+	height: 35%;
+	width: 88px;
+	background: yellow;
+	text-align: center;
+	padding-top: 27%;
+	bottom: 0;
+	position: absolute;
+}
+
+.social-icons .fa{
+	margin:15px 23px;
+	display: block;
+	padding: 8px;
+	border:1px solid #000;
+	border-radius: 50%;
+	cursor:pointer;
+}
+
+.office {
+text-align: center;
+color: black;
+background:yellow;
+}
+.ul{
+	text-align: center;
+    color: black;
+}
+
+.contents{
+	flex-basis: 50%;
+	padding: 10px;
+}
+
+.nav-bar .fa{
+	display: none;
+}
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+  background: url('menu.jpg');
+  background-position: center;
+}
+#specials-tile {
+  background: url('specials.jpg');
+  background-position: center;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+/* END HOME PAGE */
+
+/* MENU CATEGORIES PAGE */
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+.mid{
+	text-align: center;
+}
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+/* END MENU CATEGORIES PAGE */
+
+/* SINGLE CATEGORY PAGE */
+
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile hr {
+  width: 80%;
+}
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+  color: white;
+}
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  margin-left: 45px;
+  background-color: #557c3e;
+  text-align: center;
+}
+.menu-item-description {
+  padding-right: 30px;
+  color: white;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+  color: white;
+}
+@media (max-width: 700px){
+	.vertical-bar{
+		display: none;
+	}
+	.banner-title{
+		margin: 80px 40px;
+	}
+	.banner-title h1{
+		font-size: 50px;
+	}
+	.nav-bar{
+		padding: 10px 30px;
+	}
+	.fa-bars{
+		position: absolute;
+		right: 20px;
+		top: 18px;
+	}
+	.nav-bar .fa{
+		display: block;
+		color: white;
+		margin: 10px 25px;
+		font-size: 22px;
+		cursor: pointer;
+	}
+	.nav-links{
+		height: 100vh;
+		width: 200px;
+		background:#000;
+		top: 0;
+		right: -200px;
+		position: absolute;
+		text-align: left;
+		z-index: 2;
+
+	}
+	.nav-links ul a{
+		display: block;
+	}
+	.nav-links .btn{
+		float: none;
+		margin-left: 25px;
+		margin-right: 10px;
+	}
+
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  /* End Header */
+  
+
+  /* Home Page */
+  
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  
+}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+  
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;;
+  }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+ 
+   #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+  
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+
+

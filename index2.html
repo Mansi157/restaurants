@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food website</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="hero">
+		<div class="nav-bar">
+			<div class="nav-logo">
+				<img>
+			</div>
+				<div class="nav-links" id="nav-links">
+					<i class="fa fa-close" onclick="closeMenu()"></i>
+					<ul>
+						<a href="index2.html"><li>Home</li></a>
+						<a href="#pa"><li>About</li></a>
+						<a href="#myModal" data-toggle ="modal" data-target= "#myModal"><li>Time</li></a>
+						<a href="#myModal" data-toggle ="modal" data-target= "#myModa2"><li>Contact</li></a>
+						
+					</ul>
+					<button type="button" class="btn" onclick="window.location.href='t.php';">Book Table</button>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</div>	
+			    <div class="banner-title">
+				<h1><span> I just spending time <br>with my BFF...</span><br>"Bowl of Fattening Food"</h1>
+				<button class="glow-on-hover" type="button" onclick="window.location.href='menu.html';" style="background color: white" >Order Now</button>
+				
+				<p id="pa">A restaurant (sometimes known as a diner) is a place where cooked food is sold to the public, and where people sit down to eat it. It is also a place where people go to enjoy the time and to eat a meal. ... These restaurants serve fast food, that is, inexpensive food,prepared and served quicklyfine dining' is found in a guide, such as the Michelin Guide, the most famous restaurant guide in the world.  Traditionally, the restaurants of top hotels such as the Hotel de Paris in Monte Carlo or the Hôtel Ritz Paris were the main places recognized for fine dining. Today, most Michelin Guide restaurants are separate establishments.</p>
+			</div>
+			<div class="vertical-bar">
+				<div class="search-icon">
+					<a href="" class="fa fa-th-list"></a>
+					<a href="" class="fa fa-search"></a>
+					
+					
+				</div>
+				<div class="social-icons">
+					<a href="www.facebook.com" class="fa fa-facebook"></a>
+					<a href="www.instagram.com" class="fa fa-instagram"></a>
+					<a href="www.twitter.com " class="fa fa-twitter"></a>
+
+				</div>
+			</div>
+			<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content"> 
+            
+            <div class="modal-body">
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                 <h1 class="office">Official Time</h1>
+                    <ul  class="ul" style="list-style-type:none ">
+                    	<li>       Monday    :10 am-10 pm</li>
+                    	<li>Tuesday   :10 am-10 pm</li>
+                    	<li>Wednesday :10 am-10 pm</li>
+                    	<li>Thursday  :10 am-10 pm</li>
+                    	<li>Friday    :10 am-10 pm</li>
+                    	<li>Saturday  :10 am-10 pm</li>
+                    	<li>Sunday    closed</li>
+                    </ul>
+                   
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="modal fade" id="myModa2">
+    <div class="modal-dialog">
+        <div class="modal-content"> 
+            
+            <div class="modal-body">
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                 <h1 class="office">Contact</h1>
+                    <ul  class="ul" style="list-style-type:none ">
+                    	<a href="xyz@gmail.com"><li>Email: xyz@gmail.com</li></a>
+                    	<a href="9993344999"><li>Phone no: 9993344999</li></a>
+                    	<a href="999-834-599"><li>Landline: 999-834-599</li></a>
+                    	
+                    </ul>
+                   
+            </div>
+        </div>
+    </div>
+</div>
+		
+	</div>
+	<script type="text/javascript">
+		var show = document.getElementById("nav-links")
+		function showMenu(){
+			show.style.right="0";
+		}
+		function closeMenu(){
+			show.style.right="-200px";
+		}
+	</script>
+
+</body>
+</html>

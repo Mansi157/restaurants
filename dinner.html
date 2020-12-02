@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food website</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="hero">
+		<div class="nav-bar">
+			<div class="nav-logo">
+				<img>
+			</div>
+				<div class="nav-links" id="nav-links">
+					<i class="fa fa-close" onclick="closeMenu()"></i>
+					<ul>
+						<a href="index2.html"><li>Home</li></a>
+            <a href="menu.html"><li>Back</li></a>
+            <a href="#myModal" data-toggle ="modal" data-target= "#myModa2"><li>Contact</li></a>
+					</ul>
+					
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</div>	
+			<div class="vertical-bar">
+				<div class="search-icon">
+					<i class="fa fa-th-list"></i>
+					<i class="fa fa-search"></i>
+				</div>
+				<div class="social-icons">
+					<a href="https://www.facebook.com/foodinsider/" class="fa fa-facebook"></a>
+					<a href="www.instagram.com" class="fa fa-instagram"></a>
+					<a href="www.twitter.com " class="fa fa-twitter"></a>
+
+				</div>
+			</div>
+		</div>
+    <div class="modal fade" id="myModa2">
+    <div class="modal-dialog">
+        <div class="modal-content"> 
+            
+            <div class="modal-body">
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                 <h1 class="office">Contact</h1>
+                    <ul  class="ul" style="list-style-type:none ">
+                      <a href="xyz@gmail.com" class="mid"><li>Email: xyz@gmail.com</li></a>
+                      <a href="9993344999" class="mid"><li>Phone no: 9993344999</li></a>
+                      <a href="999-834-599" class="mid"><li>Landline: 999-834-599</li></a>
+                      
+                    </ul>
+                   
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <div id="main-content" class="container"> 
+    <h2 id="menu-categories-title" class="text-center" style="color: white">Specials Dinner Combo Menu</h2>
+<div class="text-center"></div><section class="row"><div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>D1</div>
+        <img class="img-responsive" width="250" height="150" src="img/D1.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price"><span> </span> Rs 13.95 <span></span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Orange Chicken</h3>
+      <p class="menu-item-details">chunks of chicken, breaded and deep-fried with sauce containing orange peels; white meat by request: for pint Rs 1 extra, for large Rs 2 extra</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+</div><div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>D2</div>
+        <img class="img-responsive" width="250" height="150" src="img/D2.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price"><span> </span> Rs 13.95 <span></span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">General Tso's Chicken</h3>
+      <p class="menu-item-details">chunks of chicken, breaded and deep-fried with sauce and scallions; white meat by request: for pint Rs 1 extra, for large Rs 2 extra</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+</div><div class="clearfix visible-lg-block visible-md-block"></div><div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>D3</div>
+        <img class="img-responsive" width="250" height="150" src="img/D3.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price"><span> </span> Rs 13.95 <span></span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Sesame Chicken</h3>
+      <p class="menu-item-details">chunks of chicken, breaded and deep-fried with a sesame seed sauce</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+</div><div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>D4</div>
+        <img class="img-responsive" width="250" height="150" src="img/D4.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price"><span> </span> Rs 13.95 <span></span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Kung Pao Chicken</h3>
+      <p class="menu-item-details">diced chicken sauteed with peanuts, and celery in delicious kung pao sauce; white meat by request: for pint Rs 1 extra, for large Rs 2 extra</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+</div><div class="clearfix visible-lg-block visible-md-block"></div><div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>D5</div>
+        <img class="img-responsive" width="250" height="150" src="img/D5.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price"><span> </span> Rs 13.95 <span></span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Chicken Cashewnuts</h3>
+      <p class="menu-item-details">diced chicken with waterchestnuts, green peppers, and celery, and cashewnuts; white meat by request: for pint Rs 1 extra, for large Rs 2 extra</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+</div><div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>D6</div>
+        <img class="img-responsive" width="250" height="150" src="img/D6.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price"><span> </span> Rs 13.95 <span></span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Chicken with Vegetables</h3>
+      <p class="menu-item-details">white meat chicken in a clear white sauce</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+</div><div class="clearfix visible-lg-block visible-md-block"></div><div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>D7</div>
+        <img class="img-responsive" width="250" height="150" src="img/D7.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price"><span> </span> Rs 13.95 <span></span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Sweet and Sour Chicken</h3>
+      <p class="menu-item-details">white meat chicken, breaded and fried with some green pepper, onion, and pineapples</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+</div><div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>D8</div>
+        <img class="img-responsive" width="250" height="150" src="img/D8.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price"><span> </span> Rs 13.95 <span></span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Beef Broccoli</h3>
+      <p class="menu-item-details">sliced beef sauteed with broccoli in brown sauce</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+  </div><div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>D9</div>
+        <img class="img-responsive" width="250" height="150" src="img/D9.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price"><span> </span> Rs 13.95 <span></span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Beef Broccoli</h3>
+      <p class="menu-item-details">sliced beef sauteed with broccoli in brown sauce</p>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>D10</div>
+        <img class="img-responsive" width="250" height="150" src="img/D10.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price"><span> </span> Rs 13.95 <span></span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Beef with Garlic Sauce</h3>
+      <p class="menu-item-details">sliced beef sauteed in garlic sauce</p>
+    </div
+  </div>
+  <hr class="visible-xs">
+</div>
+
+</div><div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>D11</div>
+        <img class="img-responsive" width="250" height="150" src="img/D11.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price"><span> </span> Rs 13.95 <span></span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Veal with Fresh Vegetables</h3>
+      <p class="menu-item-details">sliced veal sauteed with mixed vegetables</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+</div><div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>D12</div>
+        <img class="img-responsive" width="250" height="150" src="img/D12.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price"><span> </span> Rs 13.95 <span></span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Veal with Garlic Sauce</h3>
+      <p class="menu-item-details">sliced veal sauteed in garlic sauce</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+</div>
+<div class="clearfix visible-lg-block visible-md-block"></div>
+<div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>D13</div>
+        <img class="img-responsive" width="250" height="150" src="img/D13.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price"><span> </span> Rs 13.95 <span></span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Hunan Bean Curd</h3>
+      <p class="menu-item-details">bean curd lightly fried then sauteed with green pepper, snow peas, and water chestnuts in brown sauce</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+</div><div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>D14</div>
+        <img class="img-responsive" width="250" height="150" src="img/D14.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price"><span> </span> Rs 13.95 <span></span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Bean Curd with Fresh Vegetables</h3>
+      <p class="menu-item-details">Tofu lightly breaded and fried and sauteed with carrots, broccoli, snow peas, string beans, water chestnuts, and mushrooms in brown sauce</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+</div><div class="clearfix visible-lg-block visible-md-block"></div>
+<div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>D15</div>
+        <img class="img-responsive" width="250" height="150" src="img/D15.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price"><span> </span> Rs 13.95 <span></span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Mixed Vegetables</h3>
+      <p class="menu-item-details">broccoli, carrots, baby corn, water chestnuts, mushrooms, and snow peas sauteed in brown sauce</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+</div><div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>D16</div>
+        <img class="img-responsive" width="250" height="150" src="img/D16.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price"><span> </span> Rs 13.95 <span></span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Eggplant with Garlic Sauce</h3>
+      <p class="menu-item-details">eggplant sauteed with water chestnuts and string beans in garlic sauce</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+</div><div class="clearfix visible-lg-block visible-md-block"></div>
+<div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>D17</div>
+        <img class="img-responsive" width="250" height="150" src="img/D17.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price"><span> </span> Rs 13.95 <span></span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Lo Mein</h3>
+      <p class="menu-item-details">onions, and bean sprouts sauteed with soft lo mein noodles</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+</div><div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>D18</div>
+        <img class="img-responsive" width="250" height="150" src="img/D18.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price"><span> </span> Rs 13.95 <span></span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Chow Mein</h3>
+      <p class="menu-item-details">chow mein noodles sauteed with bean sprouts, onions, and celery in brown sauce</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+</div><div class="clearfix visible-lg-block visible-md-block"></div>
+</section>
+</div>
+
+	
+	<script type="text/javascript">
+		var show = document.getElementById("nav-links")
+		function showMenu(){
+			show.style.right="0";
+		}
+		function closeMenu(){
+			show.style.right="-200px";
+		}
+	</script>
+
+</body>
+</html>

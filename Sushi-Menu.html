@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food website</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="hero">
+		<div class="nav-bar">
+			<div class="nav-logo">
+				<img>
+			</div>
+				<div class="nav-links" id="nav-links">
+					<i class="fa fa-close" onclick="closeMenu()"></i>
+					<ul>
+						<a href="index2.html"><li>Home</li></a>
+						<a href="menu.html"><li>Back</li></a>
+						<a href="#myModal" data-toggle ="modal" data-target= "#myModa2"><li>Contact</li></a>
+					</ul>
+					
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</div>	
+			<div class="vertical-bar">
+				<div class="search-icon">
+					<i class="fa fa-th-list"></i>
+					<i class="fa fa-search"></i>
+				</div>
+				<div class="social-icons">
+					<a href="www.facebook.com" class="fa fa-facebook"></a>
+					<a href="www.instagram.com" class="fa fa-instagram"></a>
+					<a href="www.twitter.com " class="fa fa-twitter"></a>
+
+				</div>
+			</div>
+			
+</div>
+<div class="modal fade" id="myModa2">
+    <div class="modal-dialog">
+        <div class="modal-content"> 
+            
+            <div class="modal-body">
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                 <h1 class="office">Contact</h1>
+                    <ul  class="ul" style="list-style-type:none ">
+                    	<a href="xyz@gmail.com" class="mid"><li>Email: xyz@gmail.com</li></a>
+                    	<a href="9993344999" class="mid"><li>Phone no: 9993344999</li></a>
+                    	<a href="999-834-599" class="mid"><li>Landline: 999-834-599</li></a>
+                    	
+                    </ul>
+                   
+            </div>
+        </div>
+    </div>
+</div>
+
+	<div id="main-content" class="container">
+		<h2 id="menu-categories-title" class="text-center" style="color: white">
+			Sushi Menu </h2>	
+		<section class="row">
+			<div class="menu-item-tile col-md-6" >
+				<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo" class="text-center">
+							<div>S1</div>
+							<img src="img/SR6.jpg" width="250" height="150" class="img-responsive" alt="Item">
+						</div>
+						<div class="menu-item-price">Rs 106.95</div>
+					</div>
+					<div>
+						<h3 class="menu-item-description col-sm-7">Cucumber Sushi Roll with icecream</h3>
+						<p class="menu-item-details"></p>
+					</div>
+				</div>
+				<hr class="visible-xs">
+			</div>
+			<div class="menu-item-tile col-md-6">
+				<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+							<div>S2</div>
+							<img src="img/SR5.jpg" width="250" height="150" class="img-responsive" alt="Item">
+						</div>
+						<div class="menu-item-price">Rs 110.00</div>
+					</div>
+					<div>
+						<h3 class="menu-item-description col-sm-7">Asparagus Sushi Roll with icecream</h3>
+						<p class="menu-item-details"></p>
+					</div>
+				</div>
+				<hr class="visible-xs">
+			</div>
+			
+			<div class="menu-item-tile col-md-6">
+				<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+							<div>S4</div>
+							<img src="img/CSR4.jpg" width="250" height="150" class="img-responsive" alt="Item">
+							
+						</div>
+						<div class="menu-item-price">Rs 190.00</div>
+					</div>
+					<div>
+						<h3 class="menu-item-description col-sm-7">California Sushi Roll with icecream</h3>
+						<p class="menu-item-details"></p>
+					</div>
+				</div>
+				<hr class="visible-xs">
+			</div>
+			
+			<div class="menu-item-tile col-md-6">
+				<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+							<div>S6</div>
+							<img src="img/SR6.jpg" width="250" height="150" class="img-responsive" alt="Item">
+							
+						</div>
+						<div class="menu-item-price">Rs 90.9</div>
+					</div>
+					<div>
+						<h3 class="menu-item-description col-sm-7">Salmon Skin & Cucumber Sushi Roll</h3>
+						<p class="menu-item-details"></p>
+					</div>
+				</div>
+				<hr class="visible-xs">
+			</div>
+			<div class="menu-item-tile col-md-6">
+				<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+							<div>S7</div>
+							<img src="img/SR3.jpg" width="250" height="150" class="img-responsive" alt="Item">
+							
+						</div>
+						<div class="menu-item-price">Rs 83.9</div>
+					</div>
+					<div>
+						<h3 class="menu-item-description col-sm-7">Spicy Salmon Sushi Roll extra peice</h3>
+						<p class="menu-item-details"></p>
+					</div>
+				</div>
+				<hr class="visible-xs">
+			</div>
+			<div class="menu-item-tile col-md-6">
+				<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+							<div>S8</div>
+							<img src="img/SS3.jpg" width="250" height="150" class="img-responsive" alt="Item">
+							
+						</div>
+						<div class="menu-item-price">Rs 13.9</div>
+					</div>
+					<div>
+						<h3 class="menu-item-description col-sm-7">Salmon and Avocado Sushi Roll</h3>
+						<p class="menu-item-details"></p>
+					</div>
+				</div>
+				<hr class="visible-xs">
+			</div>
+			<div class="clearfix visible-md-block visible-lg-block"></div>
+		</section>
+	</div>
+	
+	<script type="text/javascript">
+		var show = document.getElementById("nav-links")
+		function showMenu(){
+			show.style.right="0";
+		}
+		function closeMenu(){
+			show.style.right="-200px";
+		}
+	</script>
+
+</body>
+</html>
